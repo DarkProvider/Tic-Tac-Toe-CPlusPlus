@@ -174,6 +174,8 @@ string player2Choice()
     }
 }
 
+// Loading screen function to show the game is loading
+
 void loadingBar()
 {
     cout << "\n\n\n";
@@ -182,23 +184,23 @@ void loadingBar()
     {
         int barWidth = 70;
 
-        std::cout << "[";
+        cout << "[";
         int pos = barWidth * progress;
         for (int i = 0; i < barWidth; ++i)
         {
             if (i < pos)
-                std::cout << "=";
+                cout << "=";
             else if (i == pos)
-                std::cout << ">";
+                cout << ">";
             else
-                std::cout << " ";
+                cout << " ";
         }
-        std::cout << "] " << int(progress * 100.0) << " %\r";
-        std::cout.flush();
+        cout << "] " << int(progress * 100.0) << " %\r";
+        cout.flush();
 
         progress += 0.16; // for demonstration only
     }
-    std::cout << std::endl;
+    cout << endl;
 }
 
 // This the welcome message
