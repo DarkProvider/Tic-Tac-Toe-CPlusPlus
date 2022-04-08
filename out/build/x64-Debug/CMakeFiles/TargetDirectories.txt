@@ -1,3 +1,0 @@
-C:/Users/alakk/Desktop/Github Repos/Tic-Tac-Toe-CPlusPlus/out/build/x64-Debug/CMakeFiles/Tic_Tac_Toe_CPlusPlus.dir
-C:/Users/alakk/Desktop/Github Repos/Tic-Tac-Toe-CPlusPlus/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/alakk/Desktop/Github Repos/Tic-Tac-Toe-CPlusPlus/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
