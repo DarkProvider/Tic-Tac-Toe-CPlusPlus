@@ -169,6 +169,7 @@ string player2Choice()
         else
         {
             cout << "\n\nHet symbool (X) is succesvol toegewezen aan " << speler2 << "\n\n";
+            Sleep(1000);
             return speler2;
         }
     }
